@@ -170,8 +170,9 @@ Status updates are saved to the database and reflected live in the dashboard
 
 12. Demo & Video
 
-Live Demo Link: https://drive.google.com/file/d/1sL011Jt3p5GxJUKJ5V50nxOIHreUmAFf/view?usp=sharing
-
+Live Demo Link: https://fraud-detectiondashboard.vercel.app/
+Live Video Link: https://drive.google.com/file/d/1sL011Jt3p5GxJUKJ5V50nxOIHreUmAFf/view?usp=sharing
+PPT Link: https://drive.google.com/file/d/1nVcxxcgCeLRjDKClB9lB7oeodY6SorhO/view?usp=drive_link
 
 13. Hackathon Deliverables Summary
 
