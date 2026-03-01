@@ -19,7 +19,6 @@ export async function getOrders(params?: {
     const res = await api.get("/api/orders", { params });
     return res.data;
 }
-
 export async function getOrder(orderId: string) {
     const res = await api.get(`/api/orders/${orderId}`);
     return res.data;
@@ -47,5 +46,32 @@ export async function getCategories() {
 
 export async function getCities() {
     const res = await api.get("/api/cities");
+    return res.data;
+}
+
+export async function getVerification(orderId: string) {
+    try {
+        const res = await api.get(`/api/verifications/${orderId}`);
+        return res.data;
+    } catch {
+        return null;
+    }
+}
+
+export async function submitVerification(orderId: string, data: {
+    agent_name: string;
+    item_matches_order: boolean;
+    tag_attached: boolean;
+    packaging_intact: boolean;
+    item_condition: string;
+    agent_notes: string;
+    photo_url: string;
+}) {
+    const res = await api.post(`/api/verify/${orderId}`, data);
+    return res.data;
+}
+
+export async function getOrderForAgent(orderId: string) {
+    const res = await api.get(`/api/verify/${orderId}`);
     return res.data;
 }
