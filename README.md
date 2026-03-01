@@ -170,9 +170,7 @@ Status updates are saved to the database and reflected live in the dashboard
 
 12. Demo & Video
 
-Live Demo Link: (Add after deployment)
-Demo Video Link: (Add after recording)
-GitHub Repository: (Add your GitHub repo URL here)
+Live Demo Link: https://drive.google.com/file/d/1sL011Jt3p5GxJUKJ5V50nxOIHreUmAFf/view?usp=sharing
 
 
 13. Hackathon Deliverables Summary
